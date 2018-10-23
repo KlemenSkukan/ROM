@@ -27,6 +27,6 @@
 ### [Učni list - Geometrija.pdf](file:///C:/Users/SKUKAN~1/AppData/Local/Temp/Učni%20list%20-%20Geometrija.pdf)
 - št. naloge
 - 4
-#### [Učni list - Logaritem - 2.pdf]()
+### [Učni list - Logaritem - 2.pdf]()
 - št. naloge
 - 9
