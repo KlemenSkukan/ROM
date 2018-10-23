@@ -12,7 +12,7 @@
 ### [Učni list - Računanje z izrazi.pdf](file:///C:/Users/SKUKAN~1/AppData/Local/Temp/Učni%20list%20-%20Računanje%20z%20izrazi-1.pdf)
 - št. naloge
 - 16
-### [Učni list - Racionalna števila.pdf]˙()
+### [Učni list - Racionalna števila.pdf]()
 - št. naloge
 - 10
 ### [Učni list - Sorazmerja in odstotki.pdf]()
