@@ -1,2 +1,2 @@
-# ROM
-Probal bom naredit Polieder?
+Projektna naloga:
+1. Premikajoči sončni sistem?
