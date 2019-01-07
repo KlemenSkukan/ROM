@@ -1,0 +1,485 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     21356,        477]
+NotebookOptionsPosition[     20458,        456]
+NotebookOutlinePosition[     20801,        471]
+CellTagsIndexPosition[     20758,        468]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{" ", 
+  RowBox[{
+   RowBox[{"NotranjiPlaneti", "=", 
+    RowBox[{"Animate", "[", 
+     RowBox[{
+      RowBox[{"Graphics", "[", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Circle", "[", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"0", ",", "0"}], "}"}], ",", "57.9"}], "]"}], ",", 
+         RowBox[{"Circle", "[", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"0", ",", "0"}], "}"}], ",", "108.2"}], "]"}], ",", 
+         RowBox[{"Circle", "[", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"0", ",", "0"}], "}"}], ",", "149.6"}], "]"}], ",", 
+         RowBox[{"Circle", "[", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"0", ",", "0"}], "}"}], ",", "227.9"}], "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"Gray", ",", 
+           RowBox[{"PointSize", "@", ".03"}], ",", 
+           RowBox[{"Point", "@", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"57.9", "*", 
+               RowBox[{"Cos", "[", "Mercury", "]"}]}], ",", 
+              RowBox[{"57.9", "*", 
+               RowBox[{"Sin", "[", "Mercury", "]"}]}]}], "}"}]}]}], "}"}], 
+         ",", 
+         RowBox[{"{", 
+          RowBox[{"Red", ",", 
+           RowBox[{"PointSize", "@", ".03"}], ",", 
+           RowBox[{"Point", "@", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"108.2", "*", 
+               RowBox[{"Cos", "[", "Venus", "]"}]}], ",", 
+              RowBox[{"108.2", "*", 
+               RowBox[{"Sin", "[", "Venus", "]"}]}]}], "}"}]}]}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"Blue", ",", 
+           RowBox[{"PointSize", "@", ".03"}], ",", 
+           RowBox[{"Point", "@", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"149.6", "*", 
+               RowBox[{"Cos", "[", "Earth", "]"}]}], ",", 
+              RowBox[{"149.6", "*", 
+               RowBox[{"Sin", "[", "Earth", "]"}]}]}], "}"}]}]}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"Orange", ",", 
+           RowBox[{"PointSize", "@", ".03"}], ",", 
+           RowBox[{"Point", "@", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"227.9", "*", 
+               RowBox[{"Cos", "[", "Mars", "]"}]}], ",", 
+              RowBox[{"227.9", "*", 
+               RowBox[{"Sin", "[", "Mars", "]"}]}]}], "}"}]}]}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"Yellow", ",", 
+           RowBox[{"PointSize", "@", "0.1"}], ",", 
+           RowBox[{"Point", "[", 
+            RowBox[{"{", 
+             RowBox[{"0", ",", "0"}], "}"}], "]"}]}], "}"}]}], "}"}], "]"}], 
+      ",", 
+      RowBox[{"{", 
+       RowBox[{"Mercury", ",", "0", ",", 
+        RowBox[{"360", " ", "Degree"}], ",", 
+        RowBox[{"AnimationRate", "\[Rule]", 
+         RowBox[{"0.036526", "*", "4.15"}]}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"Venus", ",", "0", ",", 
+        RowBox[{"360", " ", "Degree"}], ",", 
+        RowBox[{"AnimationRate", "\[Rule]", 
+         RowBox[{".0", ".036526", "*", "1.63"}]}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"Earth", ",", "0", ",", 
+        RowBox[{"360", " ", "Degree"}], ",", 
+        RowBox[{"AnimationRate", "\[Rule]", "0.036526"}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"Mars", ",", "0", ",", 
+        RowBox[{"360", " ", "Degree"}], ",", 
+        RowBox[{"AnimationRate", "\[Rule]", 
+         RowBox[{"0.036526", "/", "1.88"}]}]}], "}"}]}], "]"}]}], 
+   ";"}]}]], "Input",
+ CellChangeTimes->{{3.7558616798090487`*^9, 3.755861778240686*^9}, {
+   3.7558618573048954`*^9, 3.755861960921782*^9}, {3.7558619918218575`*^9, 
+   3.755862061614059*^9}, {3.7558620925567017`*^9, 3.7558621623789153`*^9}, {
+   3.755862192722972*^9, 3.755862257861093*^9}, {3.755862336180554*^9, 
+   3.7558623755740767`*^9}, {3.7558624268472185`*^9, 
+   3.7558626359252872`*^9}, {3.755862738514448*^9, 3.755862748044289*^9}, {
+   3.755862863905334*^9, 3.755862944182866*^9}, {3.7558629980607395`*^9, 
+   3.755863018130069*^9}, {3.7558631118555794`*^9, 3.75586314236413*^9}, {
+   3.7558631973423853`*^9, 3.7558633299734907`*^9}, {3.75586351612328*^9, 
+   3.7558635550827904`*^9}, {3.7558638588700657`*^9, 3.755863870774624*^9}, {
+   3.755863902847988*^9, 3.755864021860812*^9}, {3.755864082986763*^9, 
+   3.75586409995185*^9}, {3.755864240387006*^9, 3.7558642408712997`*^9}, {
+   3.755864716316738*^9, 3.7558648129904337`*^9}, {3.755864916702822*^9, 
+   3.755864937703309*^9}, {3.755864977475325*^9, 3.7558650087605705`*^9}, {
+   3.7558651740256433`*^9, 3.7558651798684487`*^9}, {3.7558652283414555`*^9, 
+   3.755865292346573*^9}, {3.755865390042412*^9, 3.755865482989621*^9}, {
+   3.7558655329212*^9, 3.755865545761854*^9}, {3.755865587377161*^9, 
+   3.755865608341009*^9}, {3.7558656425049686`*^9, 3.7558656769813814`*^9}, {
+   3.7558657203172107`*^9, 3.755865773302369*^9}, {3.755866060826475*^9, 
+   3.755866159433096*^9}, {3.7558662394681816`*^9, 3.755866364440059*^9}, {
+   3.755866402087738*^9, 3.7558665255441*^9}, {3.755866561317258*^9, 
+   3.7558666474980164`*^9}, 3.755866727730052*^9, {3.75586682334429*^9, 
+   3.755866922128484*^9}, 3.75586697114666*^9, {3.7558674264073772`*^9, 
+   3.755867452311849*^9}, 3.755867526882854*^9, {3.755867627465355*^9, 
+   3.7558676316831293`*^9}, 3.7558678259574366`*^9, {3.7558716349721804`*^9, 
+   3.755871638002776*^9}, {3.755871676690385*^9, 3.755871701340968*^9}, {
+   3.7558717343958693`*^9, 3.755871738520013*^9}, {3.755871858893575*^9, 
+   3.7558718901536503`*^9}, {3.7558719241330986`*^9, 3.755871924330582*^9}, {
+   3.7558719948903327`*^9, 3.755872005919652*^9}},
+ CellLabel->"In[34]:=",ExpressionUUID->"721d3480-c357-4dd5-b475-9e0637ea9d16"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"ZunanjiPlaneti", " ", "=", 
+    RowBox[{"Animate", "[", 
+     RowBox[{
+      RowBox[{"Graphics", "[", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"Circle", "[", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"0", ",", "0"}], "}"}], ",", "778.3"}], "]"}], ",", 
+         RowBox[{"Circle", "[", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"0", ",", "0"}], "}"}], ",", "1427.0"}], "]"}], ",", 
+         RowBox[{"Circle", "[", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"0", ",", "0"}], "}"}], ",", "2871.0"}], "]"}], ",", 
+         RowBox[{"Circle", "[", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"0", ",", "0"}], "}"}], ",", "4497.1"}], "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"Purple", ",", 
+           RowBox[{"PointSize", "@", ".03"}], ",", 
+           RowBox[{"Point", "@", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"778.3", "*", 
+               RowBox[{"Cos", "[", "Jupiter", "]"}]}], ",", 
+              RowBox[{"778.3", "*", 
+               RowBox[{"Sin", "[", "Jupiter", "]"}]}]}], "}"}]}]}], "}"}], 
+         ",", 
+         RowBox[{"{", 
+          RowBox[{"Green", ",", 
+           RowBox[{"PointSize", "@", ".03"}], ",", 
+           RowBox[{"Point", "@", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"1427.0", "*", 
+               RowBox[{"Cos", "[", "Saturn", "]"}]}], ",", 
+              RowBox[{"1427.0", "*", 
+               RowBox[{"Sin", "[", "Saturn", "]"}]}]}], "}"}]}]}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"Blue", ",", 
+           RowBox[{"PointSize", "@", ".03"}], ",", 
+           RowBox[{"Point", "@", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"2871.0", "*", 
+               RowBox[{"Cos", "[", "Uranus", "]"}]}], ",", 
+              RowBox[{"2871.0", "*", 
+               RowBox[{"Sin", "[", "Uranus", "]"}]}]}], "}"}]}]}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"Cyan", ",", 
+           RowBox[{"PointSize", "@", ".03"}], ",", 
+           RowBox[{"Point", "@", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"4497.1", "*", 
+               RowBox[{"Cos", "[", "Neptune", "]"}]}], ",", 
+              RowBox[{"4497.1", "*", 
+               RowBox[{"Sin", "[", "Neptune", "]"}]}]}], "}"}]}]}], "}"}], 
+         ",", 
+         RowBox[{"{", 
+          RowBox[{"Yellow", ",", 
+           RowBox[{"PointSize", "@", "0.1"}], ",", 
+           RowBox[{"Point", "[", 
+            RowBox[{"{", 
+             RowBox[{"0", ",", "0"}], "}"}], "]"}]}], "}"}]}], "}"}], "]"}], 
+      ",", 
+      RowBox[{"{", 
+       RowBox[{"Jupiter", ",", "0", ",", 
+        RowBox[{"360", " ", "Degree"}], ",", 
+        RowBox[{"AnimationRate", "\[Rule]", "150"}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"Saturn", ",", "0", ",", 
+        RowBox[{"360", " ", "Degree"}], ",", 
+        RowBox[{"AnimationRate", "\[Rule]", "150"}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"Uranus", ",", "0", ",", 
+        RowBox[{"360", " ", "Degree"}], ",", 
+        RowBox[{"AnimationRate", "\[Rule]", "150"}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"Neptune", ",", "0", ",", 
+        RowBox[{"360", " ", "Degree"}], ",", 
+        RowBox[{"AnimationRate", "\[Rule]", "150"}]}], "}"}]}], "]"}]}], 
+   ";"}], "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{
+  3.755867011934931*^9, {3.755867119484912*^9, 3.75586732475112*^9}, {
+   3.755867364858746*^9, 3.7558673821049495`*^9}, {3.755867432859048*^9, 
+   3.755867459638316*^9}, {3.7558675244302826`*^9, 3.7558675507056108`*^9}, {
+   3.755867829019384*^9, 3.7558679189716997`*^9}, {3.7558679965879335`*^9, 
+   3.7558680218586025`*^9}, {3.755871413144966*^9, 3.7558714326874447`*^9}, 
+   3.7558715526135798`*^9, {3.755871792865272*^9, 3.7558718370449615`*^9}, {
+   3.7558718753594027`*^9, 3.7558718782963796`*^9}, {3.7558719764249783`*^9, 
+   3.7558719923126945`*^9}, {3.7558720642361345`*^9, 
+   3.7558720783898754`*^9}, {3.755872108786105*^9, 3.7558722857651052`*^9}, {
+   3.755872329240367*^9, 3.7558723443053503`*^9}, {3.755872418539262*^9, 
+   3.755872442480304*^9}, {3.755872513812543*^9, 3.7558727311110506`*^9}, {
+   3.7558728491642876`*^9, 3.755872897840557*^9}},
+ CellLabel->"In[96]:=",ExpressionUUID->"464af1a6-8f51-4c5c-9a33-ce64692879d8"],
+
+Cell["Zunanji planeti so  preve\[CHacek] hiperaktivni.", "Text",
+ CellChangeTimes->{{3.7558727940954704`*^9, 3.75587280920138*^9}, {
+  3.7558729446832805`*^9, 
+  3.7558729473701878`*^9}},ExpressionUUID->"c3af79e7-022e-4838-86b7-\
+07d9ed1df9da"],
+
+Cell["Notranji Planeti in Zunanji Planeti:", "Text",
+ CellChangeTimes->{{3.7558724510565357`*^9, 3.7558724565396833`*^9}, {
+  3.7558727554637165`*^9, 
+  3.7558727800205774`*^9}},ExpressionUUID->"61ff6fb8-3b1c-444b-8f05-\
+41f725ef00e3"],
+
+Cell["", "Text",ExpressionUUID->"f503c327-004a-4011-9dfd-50511697dfaa"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"NotranjiPlaneti", ",", "ZunanjiPlaneti"}], "}"}]], "Input",
+ CellChangeTimes->{{3.75587247470749*^9, 3.755872489563538*^9}, 
+   3.7558725795165825`*^9},
+ CellLabel->"In[98]:=",ExpressionUUID->"7490833c-6b4d-48ed-bbd5-cac94de6795c"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TagBox[
+    StyleBox[
+     DynamicModuleBox[{$CellContext`Earth$$ = 
+      4.063104613622525, $CellContext`Mars$$ = 
+      2.163133152350616, $CellContext`Mercury$$ = 
+      4.265756657471172, $CellContext`Venus$$ = 3.358921778558472, 
+      Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+      Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ =
+       1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{
+        Hold[$CellContext`Mercury$$], 0, 360 Degree}, {
+        Hold[$CellContext`Venus$$], 0, 360 Degree}, {
+        Hold[$CellContext`Earth$$], 0, 360 Degree}, {
+        Hold[$CellContext`Mars$$], 0, 360 Degree}}, Typeset`size$$ = {
+      360., {177., 182.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+      Typeset`skipInitDone$$ = True, $CellContext`Mercury$8753$$ = 
+      0, $CellContext`Venus$8754$$ = 0, $CellContext`Earth$8755$$ = 
+      0, $CellContext`Mars$8756$$ = 0}, 
+      DynamicBox[Manipulate`ManipulateBoxes[
+       1, StandardForm, 
+        "Variables" :> {$CellContext`Earth$$ = 0, $CellContext`Mars$$ = 
+          0, $CellContext`Mercury$$ = 0, $CellContext`Venus$$ = 0}, 
+        "ControllerVariables" :> {
+          Hold[$CellContext`Mercury$$, $CellContext`Mercury$8753$$, 0], 
+          Hold[$CellContext`Venus$$, $CellContext`Venus$8754$$, 0], 
+          Hold[$CellContext`Earth$$, $CellContext`Earth$8755$$, 0], 
+          Hold[$CellContext`Mars$$, $CellContext`Mars$8756$$, 0]}, 
+        "OtherVariables" :> {
+         Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+          Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+          Typeset`specs$$, Typeset`size$$, Typeset`update$$, 
+          Typeset`initDone$$, Typeset`skipInitDone$$}, "Body" :> Graphics[{
+           Circle[{0, 0}, 57.9], 
+           Circle[{0, 0}, 108.2], 
+           Circle[{0, 0}, 149.6], 
+           Circle[{0, 0}, 227.9], {Gray, 
+            PointSize[0.03], 
+            
+            Point[{57.9 Cos[$CellContext`Mercury$$], 57.9 
+              Sin[$CellContext`Mercury$$]}]}, {Red, 
+            PointSize[0.03], 
+            
+            Point[{108.2 Cos[$CellContext`Venus$$], 108.2 
+              Sin[$CellContext`Venus$$]}]}, {Blue, 
+            PointSize[0.03], 
+            
+            Point[{149.6 Cos[$CellContext`Earth$$], 149.6 
+              Sin[$CellContext`Earth$$]}]}, {Orange, 
+            PointSize[0.03], 
+            
+            Point[{227.9 Cos[$CellContext`Mars$$], 227.9 
+              Sin[$CellContext`Mars$$]}]}, {Yellow, 
+            PointSize[0.1], 
+            Point[{0, 0}]}}], 
+        "Specifications" :> {{$CellContext`Mercury$$, 0, 360 Degree, 
+           AnimationRate -> 0.15158290000000002`, 
+           AppearanceElements -> {
+            "ProgressSlider", "PlayPauseButton", "FasterSlowerButtons", 
+             "DirectionButton"}}, {$CellContext`Venus$$, 0, 360 Degree, 
+           AnimationRate -> 0., 
+           AppearanceElements -> {
+            "ProgressSlider", "PlayPauseButton", "FasterSlowerButtons", 
+             "DirectionButton"}}, {$CellContext`Earth$$, 0, 360 Degree, 
+           AnimationRate -> 0.036526, 
+           AppearanceElements -> {
+            "ProgressSlider", "PlayPauseButton", "FasterSlowerButtons", 
+             "DirectionButton"}}, {$CellContext`Mars$$, 0, 360 Degree, 
+           AnimationRate -> 0.01942872340425532, 
+           AppearanceElements -> {
+            "ProgressSlider", "PlayPauseButton", "FasterSlowerButtons", 
+             "DirectionButton"}}}, 
+        "Options" :> {
+         ControlType -> Animator, AppearanceElements -> None, 
+          DefaultBaseStyle -> "Animate", DefaultLabelStyle -> "AnimateLabel", 
+          SynchronousUpdating -> True, ShrinkingDelay -> 10.}, 
+        "DefaultOptions" :> {}],
+       ImageSizeCache->{411., {258., 264.}},
+       SingleEvaluation->True],
+      Deinitialization:>None,
+      DynamicModuleValues:>{},
+      SynchronousInitialization->True,
+      UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+      UnsavedVariables:>{Typeset`initDone$$},
+      UntrackedVariables:>{Typeset`size$$}], "Animate",
+     Deployed->True,
+     StripOnInput->False],
+    Manipulate`InterpretManipulate[1]], ",", 
+   TagBox[
+    StyleBox[
+     DynamicModuleBox[{$CellContext`Jupiter$$ = 
+      3.7672530832212434`, $CellContext`Neptune$$ = 
+      3.7672530832212434`, $CellContext`Saturn$$ = 
+      1.7974659566540965`, $CellContext`Uranus$$ = 1.7974659566540965`, 
+      Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+      Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ =
+       1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{
+        Hold[$CellContext`Jupiter$$], 0, 360 Degree}, {
+        Hold[$CellContext`Saturn$$], 0, 360 Degree}, {
+        Hold[$CellContext`Uranus$$], 0, 360 Degree}, {
+        Hold[$CellContext`Neptune$$], 0, 360 Degree}}, Typeset`size$$ = {
+      360., {177., 182.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+      Typeset`skipInitDone$$ = True, $CellContext`Jupiter$8779$$ = 
+      0, $CellContext`Saturn$8780$$ = 0, $CellContext`Uranus$8781$$ = 
+      0, $CellContext`Neptune$8782$$ = 0}, 
+      DynamicBox[Manipulate`ManipulateBoxes[
+       1, StandardForm, 
+        "Variables" :> {$CellContext`Jupiter$$ = 0, $CellContext`Neptune$$ = 
+          0, $CellContext`Saturn$$ = 0, $CellContext`Uranus$$ = 0}, 
+        "ControllerVariables" :> {
+          Hold[$CellContext`Jupiter$$, $CellContext`Jupiter$8779$$, 0], 
+          Hold[$CellContext`Saturn$$, $CellContext`Saturn$8780$$, 0], 
+          Hold[$CellContext`Uranus$$, $CellContext`Uranus$8781$$, 0], 
+          Hold[$CellContext`Neptune$$, $CellContext`Neptune$8782$$, 0]}, 
+        "OtherVariables" :> {
+         Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+          Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+          Typeset`specs$$, Typeset`size$$, Typeset`update$$, 
+          Typeset`initDone$$, Typeset`skipInitDone$$}, "Body" :> Graphics[{
+           Circle[{0, 0}, 778.3], 
+           Circle[{0, 0}, 1427.], 
+           Circle[{0, 0}, 2871.], 
+           Circle[{0, 0}, 4497.1], {Purple, 
+            PointSize[0.03], 
+            
+            Point[{778.3 Cos[$CellContext`Jupiter$$], 778.3 
+              Sin[$CellContext`Jupiter$$]}]}, {Green, 
+            PointSize[0.03], 
+            
+            Point[{1427. Cos[$CellContext`Saturn$$], 1427. 
+              Sin[$CellContext`Saturn$$]}]}, {Blue, 
+            PointSize[0.03], 
+            
+            Point[{2871. Cos[$CellContext`Uranus$$], 2871. 
+              Sin[$CellContext`Uranus$$]}]}, {Cyan, 
+            PointSize[0.03], 
+            
+            Point[{4497.1 Cos[$CellContext`Neptune$$], 4497.1 
+              Sin[$CellContext`Neptune$$]}]}, {Yellow, 
+            PointSize[0.1], 
+            Point[{0, 0}]}}], 
+        "Specifications" :> {{$CellContext`Jupiter$$, 0, 360 Degree, 
+           AnimationRate -> 150, 
+           AppearanceElements -> {
+            "ProgressSlider", "PlayPauseButton", "FasterSlowerButtons", 
+             "DirectionButton"}}, {$CellContext`Saturn$$, 0, 360 Degree, 
+           AnimationRate -> 150, 
+           AppearanceElements -> {
+            "ProgressSlider", "PlayPauseButton", "FasterSlowerButtons", 
+             "DirectionButton"}}, {$CellContext`Uranus$$, 0, 360 Degree, 
+           AnimationRate -> 150, 
+           AppearanceElements -> {
+            "ProgressSlider", "PlayPauseButton", "FasterSlowerButtons", 
+             "DirectionButton"}}, {$CellContext`Neptune$$, 0, 360 Degree, 
+           AnimationRate -> 150, 
+           AppearanceElements -> {
+            "ProgressSlider", "PlayPauseButton", "FasterSlowerButtons", 
+             "DirectionButton"}}}, 
+        "Options" :> {
+         ControlType -> Animator, AppearanceElements -> None, 
+          DefaultBaseStyle -> "Animate", DefaultLabelStyle -> "AnimateLabel", 
+          SynchronousUpdating -> True, ShrinkingDelay -> 10.}, 
+        "DefaultOptions" :> {}],
+       ImageSizeCache->{411., {258., 264.}},
+       SingleEvaluation->True],
+      Deinitialization:>None,
+      DynamicModuleValues:>{},
+      SynchronousInitialization->True,
+      UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+      UnsavedVariables:>{Typeset`initDone$$},
+      UntrackedVariables:>{Typeset`size$$}], "Animate",
+     Deployed->True,
+     StripOnInput->False],
+    Manipulate`InterpretManipulate[1]]}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.755872413977787*^9, {3.755872461507293*^9, 3.755872490547693*^9}, {
+   3.7558725483204155`*^9, 3.7558725996526947`*^9}, {3.7558726480949793`*^9, 
+   3.755872697337571*^9}, 3.7558727342665462`*^9, 3.7558728585371237`*^9, 
+   3.755872903151832*^9, 3.7558729613357162`*^9, 3.755873075076193*^9},
+ CellLabel->"Out[98]=",ExpressionUUID->"842ea158-2036-4ea9-a916-b027c91a1c28"]
+}, Open  ]]
+},
+WindowSize->{1680, 967},
+WindowMargins->{{-8, Automatic}, {Automatic, -8}},
+FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 5706, 122, 105, "Input",ExpressionUUID->"721d3480-c357-4dd5-b475-9e0637ea9d16"],
+Cell[6267, 144, 4410, 104, 124, "Input",ExpressionUUID->"464af1a6-8f51-4c5c-9a33-ce64692879d8"],
+Cell[10680, 250, 244, 4, 34, "Text",ExpressionUUID->"c3af79e7-022e-4838-86b7-07d9ed1df9da"],
+Cell[10927, 256, 235, 4, 34, "Text",ExpressionUUID->"61ff6fb8-3b1c-444b-8f05-41f725ef00e3"],
+Cell[11165, 262, 71, 0, 34, "Text",ExpressionUUID->"f503c327-004a-4011-9dfd-50511697dfaa"],
+Cell[CellGroupData[{
+Cell[11261, 266, 271, 5, 28, "Input",ExpressionUUID->"7490833c-6b4d-48ed-bbd5-cac94de6795c"],
+Cell[11535, 273, 8907, 180, 541, "Output",ExpressionUUID->"842ea158-2036-4ea9-a916-b027c91a1c28"]
+}, Open  ]]
+}
+]
+*)
+
