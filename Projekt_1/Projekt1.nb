@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     21369,        476]
-NotebookOptionsPosition[     20472,        455]
-NotebookOutlinePosition[     20813,        470]
-CellTagsIndexPosition[     20770,        467]
+NotebookDataLength[     21514,        479]
+NotebookOptionsPosition[     20617,        458]
+NotebookOutlinePosition[     20960,        473]
+CellTagsIndexPosition[     20917,        470]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -140,7 +140,7 @@ Cell[BoxData[
    3.7558717343958693`*^9, 3.755871738520013*^9}, {3.755871858893575*^9, 
    3.7558718901536503`*^9}, {3.7558719241330986`*^9, 3.755871924330582*^9}, {
    3.7558719948903327`*^9, 3.755872005919652*^9}, 3.755947751103881*^9},
- CellLabel->"In[8]:=",ExpressionUUID->"721d3480-c357-4dd5-b475-9e0637ea9d16"],
+ CellLabel->"In[3]:=",ExpressionUUID->"721d3480-c357-4dd5-b475-9e0637ea9d16"],
 
 Cell[BoxData[
  RowBox[{
@@ -246,12 +246,12 @@ Cell[BoxData[
    3.755872329240367*^9, 3.7558723443053503`*^9}, {3.755872418539262*^9, 
    3.755872442480304*^9}, {3.755872513812543*^9, 3.7558727311110506`*^9}, {
    3.7558728491642876`*^9, 3.755872897840557*^9}},
- CellLabel->"In[6]:=",ExpressionUUID->"464af1a6-8f51-4c5c-9a33-ce64692879d8"],
+ CellLabel->"In[2]:=",ExpressionUUID->"464af1a6-8f51-4c5c-9a33-ce64692879d8"],
 
-Cell["Zunanji planeti so  preve\[CHacek] hiperaktivni.", "Text",
+Cell["", "Text",
  CellChangeTimes->{{3.7558727940954704`*^9, 3.75587280920138*^9}, {
-  3.7558729446832805`*^9, 
-  3.7558729473701878`*^9}},ExpressionUUID->"c3af79e7-022e-4838-86b7-\
+   3.7558729446832805`*^9, 3.7558729473701878`*^9}, 
+   3.7559479239672575`*^9},ExpressionUUID->"c3af79e7-022e-4838-86b7-\
 07d9ed1df9da"],
 
 Cell["Notranji Planeti in Zunanji Planeti:", "Text",
@@ -269,7 +269,7 @@ Cell[BoxData[
   RowBox[{"NotranjiPlaneti", ",", "ZunanjiPlaneti"}], "}"}]], "Input",
  CellChangeTimes->{{3.75587247470749*^9, 3.755872489563538*^9}, 
    3.7558725795165825`*^9},
- CellLabel->"In[9]:=",ExpressionUUID->"7490833c-6b4d-48ed-bbd5-cac94de6795c"],
+ CellLabel->"In[5]:=",ExpressionUUID->"7490833c-6b4d-48ed-bbd5-cac94de6795c"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -277,9 +277,9 @@ Cell[BoxData[
    TagBox[
     StyleBox[
      DynamicModuleBox[{$CellContext`Earth$$ = 
-      0.674132281236505, $CellContext`Mars$$ = 
-      0.3585810006577154, $CellContext`Mercury$$ = 
-      2.797648967131496, $CellContext`Venus$$ = 1.0988356184155028`, 
+      3.498177678117666, $CellContext`Mars$$ = 
+      6.004961414372528, $CellContext`Mercury$$ = 
+      0.38027042303425884`, $CellContext`Venus$$ = 0.3613221042291472, 
       Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
       Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ =
        1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{
@@ -288,18 +288,18 @@ Cell[BoxData[
         Hold[$CellContext`Earth$$], 0, 360 Degree}, {
         Hold[$CellContext`Mars$$], 0, 360 Degree}}, Typeset`size$$ = {
       360., {177., 182.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
-      Typeset`skipInitDone$$ = True, $CellContext`Mercury$2507$$ = 
-      0, $CellContext`Venus$2508$$ = 0, $CellContext`Earth$2509$$ = 
-      0, $CellContext`Mars$2510$$ = 0}, 
+      Typeset`skipInitDone$$ = True, $CellContext`Mercury$2333$$ = 
+      0, $CellContext`Venus$2334$$ = 0, $CellContext`Earth$2335$$ = 
+      0, $CellContext`Mars$2336$$ = 0}, 
       DynamicBox[Manipulate`ManipulateBoxes[
        1, StandardForm, 
         "Variables" :> {$CellContext`Earth$$ = 0, $CellContext`Mars$$ = 
           0, $CellContext`Mercury$$ = 0, $CellContext`Venus$$ = 0}, 
         "ControllerVariables" :> {
-          Hold[$CellContext`Mercury$$, $CellContext`Mercury$2507$$, 0], 
-          Hold[$CellContext`Venus$$, $CellContext`Venus$2508$$, 0], 
-          Hold[$CellContext`Earth$$, $CellContext`Earth$2509$$, 0], 
-          Hold[$CellContext`Mars$$, $CellContext`Mars$2510$$, 0]}, 
+          Hold[$CellContext`Mercury$$, $CellContext`Mercury$2333$$, 0], 
+          Hold[$CellContext`Venus$$, $CellContext`Venus$2334$$, 0], 
+          Hold[$CellContext`Earth$$, $CellContext`Earth$2335$$, 0], 
+          Hold[$CellContext`Mars$$, $CellContext`Mars$2336$$, 0]}, 
         "OtherVariables" :> {
          Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
           Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -362,8 +362,10 @@ Cell[BoxData[
     Manipulate`InterpretManipulate[1]], ",", 
    TagBox[
     StyleBox[
-     DynamicModuleBox[{$CellContext`Jupiter$$ = 0, $CellContext`Neptune$$ = 
-      0, $CellContext`Saturn$$ = 0, $CellContext`Uranus$$ = 0, 
+     DynamicModuleBox[{$CellContext`Jupiter$$ = 
+      0.16034892921224148`, $CellContext`Neptune$$ = 
+      0.16034892921224148`, $CellContext`Saturn$$ = 
+      0.16034892921224148`, $CellContext`Uranus$$ = 0.16034892921224148`, 
       Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
       Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ =
        1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{
@@ -372,18 +374,18 @@ Cell[BoxData[
         Hold[$CellContext`Uranus$$], 0, 360 Degree}, {
         Hold[$CellContext`Neptune$$], 0, 360 Degree}}, Typeset`size$$ = {
       360., {177., 182.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
-      Typeset`skipInitDone$$ = True, $CellContext`Jupiter$2541$$ = 
-      0, $CellContext`Saturn$2542$$ = 0, $CellContext`Uranus$2543$$ = 
-      0, $CellContext`Neptune$2544$$ = 0}, 
+      Typeset`skipInitDone$$ = True, $CellContext`Jupiter$2370$$ = 
+      0, $CellContext`Saturn$2371$$ = 0, $CellContext`Uranus$2372$$ = 
+      0, $CellContext`Neptune$2373$$ = 0}, 
       DynamicBox[Manipulate`ManipulateBoxes[
        1, StandardForm, 
         "Variables" :> {$CellContext`Jupiter$$ = 0, $CellContext`Neptune$$ = 
           0, $CellContext`Saturn$$ = 0, $CellContext`Uranus$$ = 0}, 
         "ControllerVariables" :> {
-          Hold[$CellContext`Jupiter$$, $CellContext`Jupiter$2541$$, 0], 
-          Hold[$CellContext`Saturn$$, $CellContext`Saturn$2542$$, 0], 
-          Hold[$CellContext`Uranus$$, $CellContext`Uranus$2543$$, 0], 
-          Hold[$CellContext`Neptune$$, $CellContext`Neptune$2544$$, 0]}, 
+          Hold[$CellContext`Jupiter$$, $CellContext`Jupiter$2370$$, 0], 
+          Hold[$CellContext`Saturn$$, $CellContext`Saturn$2371$$, 0], 
+          Hold[$CellContext`Uranus$$, $CellContext`Uranus$2372$$, 0], 
+          Hold[$CellContext`Neptune$$, $CellContext`Neptune$2373$$, 0]}, 
         "OtherVariables" :> {
          Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
           Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -449,12 +451,13 @@ Cell[BoxData[
    3.7558725483204155`*^9, 3.7558725996526947`*^9}, {3.7558726480949793`*^9, 
    3.755872697337571*^9}, 3.7558727342665462`*^9, 3.7558728585371237`*^9, 
    3.755872903151832*^9, 3.7558729613357162`*^9, 3.755873075076193*^9, 
-   3.7559473572387238`*^9, {3.755947743448106*^9, 3.7559477548224373`*^9}},
- CellLabel->"Out[9]=",ExpressionUUID->"98dd101b-adaf-402c-9957-8b3c621d1ee5"]
+   3.7559473572387238`*^9, {3.755947743448106*^9, 3.7559477548224373`*^9}, {
+   3.7559478961244707`*^9, 3.7559479025773745`*^9}, 3.755947960967143*^9},
+ CellLabel->"Out[5]=",ExpressionUUID->"fb1d9d50-601d-492a-8137-072ff5cad242"]
 }, Open  ]]
 },
-WindowSize->{958, 988},
-WindowMargins->{{Automatic, -7}, {Automatic, 0}},
+WindowSize->{1920, 997},
+WindowMargins->{{-8, Automatic}, {Automatic, -8}},
 FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
 StyleDefinitions->"Default.nb"
 ]
@@ -469,14 +472,14 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 5722, 122, 162, "Input",ExpressionUUID->"721d3480-c357-4dd5-b475-9e0637ea9d16"],
-Cell[6283, 144, 4409, 104, 181, "Input",ExpressionUUID->"464af1a6-8f51-4c5c-9a33-ce64692879d8"],
-Cell[10695, 250, 244, 4, 34, "Text",ExpressionUUID->"c3af79e7-022e-4838-86b7-07d9ed1df9da"],
-Cell[10942, 256, 235, 4, 34, "Text",ExpressionUUID->"61ff6fb8-3b1c-444b-8f05-41f725ef00e3"],
-Cell[11180, 262, 71, 0, 34, "Text",ExpressionUUID->"f503c327-004a-4011-9dfd-50511697dfaa"],
+Cell[558, 20, 5722, 122, 86, "Input",ExpressionUUID->"721d3480-c357-4dd5-b475-9e0637ea9d16"],
+Cell[6283, 144, 4409, 104, 105, "Input",ExpressionUUID->"464af1a6-8f51-4c5c-9a33-ce64692879d8"],
+Cell[10695, 250, 222, 4, 34, "Text",ExpressionUUID->"c3af79e7-022e-4838-86b7-07d9ed1df9da"],
+Cell[10920, 256, 235, 4, 34, "Text",ExpressionUUID->"61ff6fb8-3b1c-444b-8f05-41f725ef00e3"],
+Cell[11158, 262, 71, 0, 34, "Text",ExpressionUUID->"f503c327-004a-4011-9dfd-50511697dfaa"],
 Cell[CellGroupData[{
-Cell[11276, 266, 270, 5, 28, "Input",ExpressionUUID->"7490833c-6b4d-48ed-bbd5-cac94de6795c"],
-Cell[11549, 273, 8907, 179, 1093, "Output",ExpressionUUID->"98dd101b-adaf-402c-9957-8b3c621d1ee5"]
+Cell[11254, 266, 270, 5, 28, "Input",ExpressionUUID->"7490833c-6b4d-48ed-bbd5-cac94de6795c"],
+Cell[11527, 273, 9074, 182, 541, "Output",ExpressionUUID->"fb1d9d50-601d-492a-8137-072ff5cad242"]
 }, Open  ]]
 }
 ]
