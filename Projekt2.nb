@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     21514,        479]
-NotebookOptionsPosition[     20617,        458]
-NotebookOutlinePosition[     20960,        473]
-CellTagsIndexPosition[     20917,        470]
+NotebookDataLength[     21511,        479]
+NotebookOptionsPosition[     20614,        458]
+NotebookOutlinePosition[     20957,        473]
+CellTagsIndexPosition[     20914,        470]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -277,9 +277,9 @@ Cell[BoxData[
    TagBox[
     StyleBox[
      DynamicModuleBox[{$CellContext`Earth$$ = 
-      3.498177678117666, $CellContext`Mars$$ = 
-      6.004961414372528, $CellContext`Mercury$$ = 
-      0.38027042303425884`, $CellContext`Venus$$ = 0.3613221042291472, 
+      4.938757153736332, $CellContext`Mars$$ = 
+      3.8244397478356826`, $CellContext`Mercury$$ = 
+      1.0179677357490688`, $CellContext`Venus$$ = 0.3846880858311231, 
       Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
       Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ =
        1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{
@@ -363,9 +363,9 @@ Cell[BoxData[
    TagBox[
     StyleBox[
      DynamicModuleBox[{$CellContext`Jupiter$$ = 
-      0.16034892921224148`, $CellContext`Neptune$$ = 
-      0.16034892921224148`, $CellContext`Saturn$$ = 
-      0.16034892921224148`, $CellContext`Uranus$$ = 0.16034892921224148`, 
+      1.3520842222483882`, $CellContext`Neptune$$ = 
+      1.5457373124938663`, $CellContext`Saturn$$ = 
+      1.5457373124938663`, $CellContext`Uranus$$ = 1.5457373124938663`, 
       Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
       Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ =
        1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{
@@ -479,7 +479,7 @@ Cell[10920, 256, 235, 4, 34, "Text",ExpressionUUID->"61ff6fb8-3b1c-444b-8f05-41f
 Cell[11158, 262, 71, 0, 34, "Text",ExpressionUUID->"f503c327-004a-4011-9dfd-50511697dfaa"],
 Cell[CellGroupData[{
 Cell[11254, 266, 270, 5, 28, "Input",ExpressionUUID->"7490833c-6b4d-48ed-bbd5-cac94de6795c"],
-Cell[11527, 273, 9074, 182, 541, "Output",ExpressionUUID->"fb1d9d50-601d-492a-8137-072ff5cad242"]
+Cell[11527, 273, 9071, 182, 541, "Output",ExpressionUUID->"fb1d9d50-601d-492a-8137-072ff5cad242"]
 }, Open  ]]
 }
 ]
